@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=EB+Garamond&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200&family=Open+Sans:wght@300&family=Roboto+Mono:wght@100&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100dvh;
+  background-color: #9efd38;
+  align-items: center;
+  justify-items: center;
+  font-family: Caveat;
+  overflow: hidden;
+}
+button {
+  font-family: Caveat;
+  width: 75px;
+  height: 50px;
+  background: none;
+  border: none;
+  border-radius: 15px;
+  background-color: black;
+  position: absolute;
+  color: white;
+}
+#no {
+  top: 50%;
+  left: 50%;
+  animation: ease-in-out;
+}
+button:hover {
+  cursor: pointer;
+}
+video {
+  margin-top: 15%;
+}
+img {
+  width: 300px;
+}
